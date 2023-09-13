@@ -1,0 +1,82 @@
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    width: 20rem;
+}
+
+form input, form button {
+    height: 2.5rem;
+}
+
+form input {
+    padding-left: 0.5rem;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+}
+
+form input:focus {
+   border: 2px purple solid;
+   outline: 0;
+}
+
+
+form input:nth-child(2), form input:nth-child(3), form input:nth-child(5) {
+    margin-top: 1rem;
+}
+
+form button {
+    margin-top: 1rem;
+    border: 0;
+    border-radius: 0.5rem;
+    background-color: purple;
+    color: white;
+}
+
+form img {
+    align-self: flex-end;
+    position: absolute;
+    margin-top: 8.2rem;
+    margin-right: 1rem;
+}
+
+form img:hover {
+    cursor: pointer;
+}
+
+form img:nth-child(6) {
+    margin-top: 12rem;
+    margin-right: 1rem;
+}
+
+form a {
+    align-self: flex-end;
+}
+
+.alert {
+    display: none;
+    width: 20rem;
+    padding: 1.4rem 0;
+    padding-left: 0.4rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.error {
+    background-color: rgba(255, 0, 0, 40%);
+}
+
+.success {
+    background-color: rgba(0, 255, 0, 40%);
+}
